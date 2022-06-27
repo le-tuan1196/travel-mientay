@@ -281,7 +281,7 @@ html{
 }
 
 /* Tablet */
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 740px) and (max-width: 1023px) {
 
     .place-img img{
         width: 30%;
@@ -313,10 +313,18 @@ html{
         height: 100%;
 
       }
+    
+    .search-btn{
+        margin-right: -1px
+      }
 }
 
 /* Mobile */
-@media (max-width: 767px){
+@media (max-width: 739px){
+    
+    .text-place{
+        font-size: 15px;
+    
     #header{
         overflow: hidden;
     }
@@ -358,8 +366,8 @@ html{
         float: right;
         border-radius: 10px;
         padding: 6px;
-        margin-top: 13px;
-        margin-right: -1px;
+        margin-right: -23px;
+        margin-left: 8px;
     }
 
     .sub-list li{
