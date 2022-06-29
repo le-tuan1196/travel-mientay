@@ -86,11 +86,58 @@ html{
     line-height: 66px;
 }
 
-#banner {
+#slider{
+    width: 40%;
+    margin: 0 auto;
+    overflow: hidden;
     margin-top: 66px;
-    padding-top: 50%;
-    background: url(https://scontent.fvca1-2.fna.fbcdn.net/v/t39.30808-6/289537699_163981919460378_6510949162421555302_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=OaN9DJ9t4-kAX8EDuiE&_nc_ht=scontent.fvca1-2.fna&oh=00_AT84heABVzmjCqHgLBfrOlzFvqQX2qo4C2TlOca1as3Cfg&oe=62BC2D8F) top center / cover no-repeat;
+}
+
+.slider_imgs{
+    display: flex;
+    
+}
+
+.slider_imgs img{
     width: 100%;
+}
+
+.slider_imgs input{
+    display: none;
+}
+
+.lableslider{
+    display: flex;
+    justify-content: center;
+}
+
+.lableslider label:hover{
+    background-color: green;
+}
+
+.lableslider label{
+    border: 1px solid;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+}
+
+#img1:checked ~ .imgslider1{
+    margin-left: -100%;
+}
+
+#img2:checked ~ .imgslider2{
+    margin-left: -200%;
+}
+
+
+#img3:checked ~ .imgslider3{
+    margin-left: -300%;
+}
+
+#img4:checked ~ .imgslider4{
+    margin-left: -400%;
 }
 
 
@@ -318,6 +365,10 @@ html{
       .search-btn{
         margin-right: -1px
       }
+    
+    #slider{
+        width: 75%;
+    }
 }
 
 /* Mobile */
@@ -407,6 +458,10 @@ html{
     
     .col-half{
         padding: 10px 16px;
+    }
     
+    #slider{
+        width: 100%;
+    }
 }
     
