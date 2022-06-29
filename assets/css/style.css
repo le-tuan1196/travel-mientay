@@ -358,14 +358,13 @@ html{
 
       .col-half{
         height: 100%;
-        padding: 10px 16px;
 
       }
 
       .search-btn{
         margin-right: -1px
-      }
-    
+    }
+
     #slider{
         width: 75%;
     }
@@ -454,10 +453,6 @@ html{
     .submit{
         margin-right: -28px;
         margin-left: 0;
-    }
-    
-    .col-half{
-        padding: 10px 16px;
     }
     
     #slider{
